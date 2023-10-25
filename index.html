@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="">
+  <div class="container mx-auto h-screen md:flex md:justify-center w-screen md:items-center">
+    <div class="md:w-1/2 md:h-2/3 shadow-lg rounded-md shadow-purple-500/50 md:flex bg-white">
+      <div class="rounded-lg bg-gradient-to-b from-violet-500 from-10% to-blue-700 md:w-1/2 flex flex-col items-center justify-center text-white p-5">
+        <p class="text-xl my-5 text-purple-100">Your Result</p>
+        <div class="flex flex-col bg-gradient-to-b from-blue-900 to-blue-600 w-[130px] h-[130px] rounded-full p-3 bg-blue-800 text-white justify-center items-center">
+         
+          <p class="text-5xl font-semibold">76</p>
+          <p class="text-sm">of 100</p>
+  
+        </div>
+        <p class="text-center text-3xl font-semibold my-5">Great</p>
+        <p class="text-center text-sm">You scored higher than 65% of the people who have taken these tests.</p>
+
+      </div>
+      <div class="md:w-1/2 p-10">
+        <p class="font-semibold text-xl">Summary</p>
+        <div class="flex flex-col gap-5 mt-5">
+          <div class="flex   justify-between items-center bg-red-100 p-2 rounded"><span class="flex gap-3 text-orange-500"><img src="./assets/images/icon-reaction.svg" alt=""> Reaction</span> <p> <span class="font-semibold">80</span> / 100</p> </div>
+          <div class="flex  justify-between items-center bg-orange-100 p-2 rounded"><span class="flex gap-3 text-pink-500"><img src="./assets/images/icon-memory.svg" alt=""> Memory</span> <p> <span class="font-semibold">92</span> / 100</p> </div>
+          <div class="flex  justify-between items-center bg-cyan-100 p-2 rounded"><span class="flex gap-3 text-cyan-500"><img src="./assets/images/icon-verbal.svg" alt=""> Verbal</span> <p> <span class="font-semibold">61</span> / 100</p> </div>
+          <div class="flex  justify-between items-center bg-indigo-100 p-2 rounded"><span class="flex gap-3 text-indigo-500"><img src="./assets/images/icon-visual.svg" alt="">Visual </span> <p> <span class="font-semibold">72</span> / 100</p> </div>
+        </div>
+        
+
+        <div class="w-full rounded-full shadow-lg text-center py-3 my-10 text-white font-semibold bg-slate-900 hover:from-purple-500 hover:to-blue-700 hover:bg-gradient-to-b"> Continue </div>
+      </div>
+      
+        
+    </div>
+  </div>
+  
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
